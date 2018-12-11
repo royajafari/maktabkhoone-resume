@@ -1,0 +1,68 @@
+{
+    "menu": [
+        {
+            "title": "About"
+        },
+        {
+            "title": "ChangeColor"
+        },
+        {
+            "title": "Skill"
+        }
+    ],
+    "title": "Hello I`m Roya!",
+    "subtitle": "Full Stack Dev | Open-Source Enthusiast",
+    "links": {
+        "github": "https://github.com/iamsoorena",
+        "linkedin": "https://ir.linkedin.com/in/iamsoorena"
+    },
+    "sections": [
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type": "p",
+                    "content": "I am programmer in Tejarat Bank in Iran. I am student in master of science in software of computer engineering. Now, I have exprience in some languages(SQL,JAVA,C++) and a little in React :) "
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "items": [
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/react.png",
+                        "title": "React"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/javascript.png",
+                        "title": "Javascript"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/html.png",
+                        "title": "Html"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/css.png",
+                        "title": "CSS"
+                    }
+                }
+            ]
+        }
+    ],
+    "icons" : {
+        "down": "images/down.png",
+        "up": "images/up.png"
+    }
+
+}
