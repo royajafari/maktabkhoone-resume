@@ -1,20 +1,9 @@
 {
-    "menu": [
-        {
-            "title": "About"
-        },
-        {
-            "title": "ChangeColor"
-        },
-        {
-            "title": "Skill"
-        }
-    ],
     "title": "Hello I`m Roya!",
     "subtitle": "Full Stack Dev | Open-Source Enthusiast",
     "links": {
-        "github": "https://github.com/iamsoorena",
-        "linkedin": "https://ir.linkedin.com/in/iamsoorena"
+        "github": "https://github.com/royajafari",
+        "linkedin": "https://ir.linkedin.com/in/royajafari"
     },
     "sections": [
         {

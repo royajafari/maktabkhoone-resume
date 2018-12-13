@@ -18,38 +18,41 @@ class MenuSection extends Component {
           }
           this.setState({bgcolor: colory});
           ReactDOM.render(<MenuSection />, document.getElementById('app'));
+          
       }
 
     render(){
         return (
-            <div className="menu first">
-                <div>
-                <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500} delay={0}>
-                    <h5 style={{
-                        textDecoration: "underline"
-                    }}><a>About</a>  </h5>
-                </Link>
-                    
-                    <button id="app" 
-                    onClick={this.handleClick} 
-                    >ChangeColor</button>
-                    
-                <Element name="about" className="element">
-                </Element> 
-                
-                </div>
-                
-                <div>
-                <Link activeClass="active" to="skill" spy={true} smooth={true} offset={50} duration={500} delay={0}>
-                <h5 style={{
-                        textDecoration: "underline"
-                    }}><a>Skill</a></h5>  
-                </Link>
-                <Element name="skill" className="element">
-                </Element>  
-                </div>
-            </div>
-            
+              <div className="first">
+
+              <ul>
+                <li>
+                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500} delay={0} onSetActive={this.handleSetActive}>
+                        <a href="#" style={{
+                    color: 'white'
+                }}>About</a>
+                        </Link>                                                                    
+                        <Element name="about" className="element">
+                        </Element>    
+                </li>
+                <li>
+                    <Link activeClass="active" to="skill" spy={true} smooth={true} offset={50} duration={500} delay={0}>
+                        <a href="#"  style={{
+                    color: 'white'
+                }}>Skill</a>  
+                    </Link>
+                    <Element name="skill" className="element">
+                    </Element> 
+                </li>
+                <li>
+                <button id="app" 
+                            onClick={this.handleClick} 
+                    >ChangeColor
+                </button>
+                </li>
+              </ul>
+              </div>
+          
         )
         
     }

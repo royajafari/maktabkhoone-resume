@@ -1,0 +1,10 @@
+git init
+ git add .
+git commit -m "first commit"
+git config --global user.email "jafarir.ir@gmail.com"
+git config --global user.name "RoyaJafari"
+git commit -m "first commit"
+git remote add origin https://github.com/royajafari/maktabkhoone-resume.git
+git push -u origin master
+yarn global add gh-pages
+npm run deploy
